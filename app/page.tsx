@@ -1,3 +1,5 @@
+"use client"
+
 import Hero from "./components/Hero";
 import AboutUs from "./components/AboutUs";
 import Products from "./components/Products";
@@ -9,6 +11,8 @@ export default function Home() {
     <div>
       <main>
         <AboutUs />
+        <Products />
+        <Services />
       </main>
     </div>
   );
