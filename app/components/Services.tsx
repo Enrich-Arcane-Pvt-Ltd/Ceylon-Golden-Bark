@@ -16,7 +16,7 @@ export default function Services() {
                     <div className='flex justify-center xl:justify-end'>
                         <div className='py-2 flex justify-center xl:justify-end xl:mr-8 items-center overflow-hidden group w-3/4 xl:w-auto'>
                             <Image 
-                                src="/Images/about.jpg"
+                                src="/Images/about.png"
                                 width={500}
                                 height={500}
                                 alt='About'

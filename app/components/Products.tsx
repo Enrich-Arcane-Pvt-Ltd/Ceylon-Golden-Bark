@@ -4,7 +4,7 @@ import MotionWrapper from './MotionWrapper'
 
 export default function Products() {
     return (
-        <section className='bg-brown relative w-full min-h-screen py-10'>
+        <section className='bg-gradient-to-br from-black via-brown to-cinnamon-900 relative w-full min-h-screen py-10'>
             <div className="container mx-auto px-0 sm:px-2">
                 <MotionWrapper variant='fadeUp'>
                     <div className='mb-10 text-center '>
@@ -17,7 +17,7 @@ export default function Products() {
                         <div className='bg-light w-full max-w-[500px] h-auto lg:h-[650px] rounded-3xl flex flex-col justify-between items-center p-6 transition-all duration-500 hover:shadow-2xl hover:scale-105'>
                             <div className='w-full sm:w-3/4 relative h-64 md:h-72 overflow-hidden rounded-xl group'>
                                 <Image 
-                                    src='/Images/product-1.jpg'
+                                    src='/Images/product-1.png'
                                     alt='Ceylon Cinnamon Infused "Sugar"'
                                     fill
                                     className='object-cover rounded-xl cursor-pointer transition-transform duration-700 group-hover:scale-110 group-hover:rotate-2'
@@ -41,7 +41,7 @@ export default function Products() {
                         <div className='bg-light w-full max-w-[500px] h-auto lg:h-[650px] rounded-3xl flex flex-col justify-between items-center p-6 transition-all duration-500 hover:shadow-2xl hover:scale-105'>
                             <div className='w-full sm:w-3/4 relative h-64 md:h-72 overflow-hidden rounded-xl group'>
                                 <Image 
-                                    src='/Images/product-4.jpg'
+                                    src='/Images/product-4.png'
                                     alt='Ceylon Cinnamon Infused "Coffee"'
                                     fill
                                     className='object-cover rounded-xl cursor-pointer transition-transform duration-700 group-hover:scale-110 group-hover:rotate-2'
