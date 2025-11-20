@@ -1,5 +1,6 @@
 import React from 'react';
 import { Mail, Phone, MapPin } from 'lucide-react';
+import Image from 'next/image';
 
 const Footer = () => {
     const year = new Date().getFullYear();
@@ -10,8 +11,16 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12 lg:gap-16">
                     <div className="space-y-6 animate-fade-in-left">
                         <div className="flex items-center space-x-3 group">
-                            <div className="w-12 h-12 bg-gradient-to-br from-gold-400 to-gold-600 rounded-lg flex items-center justify-center shadow-lg transform group-hover:rotate-6 transition-transform duration-300">
-                                <span className="text-cinnamon-900 font-bold text-xl">C</span>
+                            <div className="w-12 h-12 bg-cinnamon-200 rounded-lg flex items-center justify-center shadow-lg transform group-hover:rotate-6 transition-transform duration-300">
+                                <span className="text-cinnamon-900 font-bold text-xl">
+                                    <Image
+                                        src="/Images/logo-2.png"
+                                        alt="Hero Background"
+                                        className="w-full h-full object-cover rounded-lg cursor-pointer"
+                                        fill
+                                        priority
+                                    />
+                                </span>
                             </div>
                             <div>
                                 <h3 className="text-2xl font-bold text-cream">Ceylon Golden Bark</h3>
