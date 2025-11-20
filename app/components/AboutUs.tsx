@@ -7,7 +7,7 @@ export default function AboutUs() {
         <section className='py-20 relative w-full min-h-screen xl:flex justify-center'>
             <div className="absolute inset-0 -z-20">
                 <Image
-                    src="/Images/background.jpg"
+                    src="/Images/background-2.jpg"
                     alt="Hero Background"
                     className="w-full h-full object-cover"
                     fill
