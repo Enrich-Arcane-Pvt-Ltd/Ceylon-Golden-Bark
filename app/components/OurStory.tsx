@@ -3,28 +3,17 @@ import MotionWrapper from "./MotionWrapper";
 
 export default function OurStory() {
     return (
-        <section className="py-20 relative w-full min-h-screen">
-            <div className="absolute inset-0 -z-20">
-                <Image
-                    src="/Images/background.webp"
-                    alt="Hero Background"
-                    className="w-full h-full object-cover"
-                    fill
-                    priority
-                />
-            </div>
-            <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/50 to-black/80 -z-10"></div>
-
+        <section className="bg-gradient-to-br from-brown via-cinnamon-900 to-black py-20 relative w-full min-h-screen">
             <div className="container mx-auto px-0 sm:px-2">
                 <div className="grid grid-cols-1 xl:grid-cols-3 w-full min-h-screen">
                     <div className="xl:col-span-2 h-full flex flex-col justify-center">
                         <MotionWrapper variant="fadeLeft">
                             <div className="flex flex-row items-center w-full xl:ml-20 ml-0 justify-center xl:justify-start">
-                                <h1 className="uppercase text-brown font-bold xl:text-6xl md:text-4xl text-2xl xl:mr-2 lg:mr-2">
+                                <h1 className="uppercase text-gold-500 font-bold xl:text-6xl md:text-4xl text-2xl xl:mr-2 lg:mr-2">
                                     Our Story
                                 </h1>
                                 <Image
-                                    src="/Images/cinnamon.png"
+                                    src="/Images/vanilla.png"
                                     width={50}
                                     height={500}
                                     alt="About"
