@@ -21,7 +21,7 @@ export default function AboutUs() {
                     <MotionWrapper variant='fadeLeft'>
                         <div className='py-2 flex justify-center items-center overflow-hidden group'>
                             <Image 
-                                src="/Images/about.jpg"
+                                src="/Images/about.png"
                                 width={450}
                                 height={500}
                                 alt='About'

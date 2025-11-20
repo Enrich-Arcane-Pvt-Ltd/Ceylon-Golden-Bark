@@ -74,7 +74,7 @@ export default function OurStory() {
                         <div className="xl:col-span-1 h-full xl:flex justify-end items-center relative hidden">
                             <div className="w-72 h-96 absolute rounded-3xl shadow-xl rotate-12 overflow-hidden">
                                 <Image
-                                    src="/Images/story-2.jpg"
+                                    src="/Images/story-2.png"
                                     alt="Our Story"
                                     fill
                                     className="object-cover rounded-3xl cursor-pointer transition-transform duration-700 hover:scale-110"
@@ -83,7 +83,7 @@ export default function OurStory() {
 
                             <div className="w-72 h-96 absolute top-[25%] left-[10%] rounded-3xl shadow-xl -rotate-12 overflow-hidden">
                                 <Image
-                                    src="/Images/story-1.jpg"
+                                    src="/Images/story-1.png"
                                     alt="Our Story"
                                     fill
                                     className="object-cover rounded-3xl cursor-pointer transition-transform duration-700 hover:scale-110"
