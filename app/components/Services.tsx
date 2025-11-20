@@ -4,7 +4,7 @@ import MotionWrapper from './MotionWrapper'
 
 export default function Services() {
     return (
-        <section className='bg-gradient-to-br from-cinnamon-500 to-cinnamon-800 py-20 relative'>
+        <section className='bg-gradient-to-br from-cinnamon-900 via-brown to-black py-20 relative'>
             <MotionWrapper variant='fadeUp'>
                 <div className='mb-10 xl:ml-96 text-center xl:text-left'>
                     <h1 className='text-cinnamon-100 text-2xl md:text-4xl xl:text-6xl font-serif'>/ Why to Choose Us</h1>

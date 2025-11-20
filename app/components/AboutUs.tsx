@@ -4,18 +4,7 @@ import MotionWrapper from './MotionWrapper'
 
 export default function AboutUs() {
     return (
-        <section className='py-20 relative w-full min-h-screen xl:flex justify-center'>
-            <div className="absolute inset-0 -z-20">
-                <Image
-                    src="/Images/background-2.jpg"
-                    alt="Hero Background"
-                    className="w-full h-full object-cover"
-                    fill
-                    priority
-                />
-            </div>
-            <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/50 to-black/80 -z-10"></div>
-
+        <section className='bg-gradient-to-br from-brown via-cinnamon-900 to-black py-20 relative flex justify-center'>
             <div className="container mx-auto px-0 sm:px-2 flex relative justify-center">
                 <div className='grid grid-cols-1 xl:grid-cols-2 w-4/5 lg:w-4/5 xl:w-4/5 xl:place-items-center'>
                     <MotionWrapper variant='fadeLeft'>
