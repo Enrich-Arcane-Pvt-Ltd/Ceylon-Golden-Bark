@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin, FacebookIcon, InstagramIcon, TwitterIcon } from 'lucide-react';
 import Image from 'next/image';
 
 const Footer = () => {
@@ -41,7 +41,7 @@ const Footer = () => {
                                     aria-label={social}
                                 >
                                     <span className="text-cream text-sm font-semibold capitalize">
-                                        {social[0].toUpperCase()}
+                                        {social === 'facebook' ? <FacebookIcon /> : social === 'instagram' ? <InstagramIcon /> : <TwitterIcon />}
                                     </span>
                                 </a>
                             ))}
@@ -65,7 +65,7 @@ const Footer = () => {
                                 <div>
                                     <p className="text-parchment/70 text-xs uppercase tracking-wider mb-1">Email</p>
                                     <p className="text-cream font-medium group-hover:text-gold-400 transition-colors">
-                                        info@ceylongoldenbark.com
+                                        info@ceylongoldenbark.com / roy.wijendra@gmail.com
                                     </p>
                                 </div>
                             </a>
@@ -92,8 +92,8 @@ const Footer = () => {
                                 <div>
                                     <p className="text-parchment/70 text-xs uppercase tracking-wider mb-1">Address</p>
                                     <p className="text-cream font-medium">
-                                        123 Artisan Street, Creative District<br />
-                                        <span className="text-parchment/80">New York, NY 10001</span>
+                                        645/8, Industrial Estate,<br />
+                                        <span className="text-parchment/80">Ratmalana, Sri Lanka</span>
                                     </p>
                                 </div>
                             </div>

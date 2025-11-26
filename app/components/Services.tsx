@@ -7,7 +7,7 @@ export default function Services() {
         <section className='bg-gradient-to-br from-cinnamon-900 via-brown to-black py-20 relative'>
             <MotionWrapper variant='fadeUp'>
                 <div className='mb-10 xl:ml-96 text-center xl:text-left'>
-                    <h1 className='text-cinnamon-100 text-2xl md:text-4xl xl:text-6xl font-serif'>/ Why to Choose Us</h1>
+                    <h1 className='text-cinnamon-100 text-2xl md:text-4xl xl:text-6xl font-serif'>/ Why Choose Us</h1>
                 </div>
             </MotionWrapper>
 
