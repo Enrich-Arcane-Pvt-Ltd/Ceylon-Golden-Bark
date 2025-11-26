@@ -30,7 +30,7 @@ export default function Hero() {
                     </div>
 
                     <div className="relative py-6 md:py-8">
-                        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-amber-500 to-yellow-600 leading-tight animate-scale-in drop-shadow-2xl">
+                        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl pb-3 font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-amber-500 to-yellow-600 leading-tight animate-scale-in drop-shadow-2xl">
                             Ceylon Golden
                         </h1>
                         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-500 via-yellow-600 to-yellow-500 leading-tight animate-scale-in-delay drop-shadow-2xl">

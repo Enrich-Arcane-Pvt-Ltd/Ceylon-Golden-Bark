@@ -3,9 +3,9 @@ import MotionWrapper from "./MotionWrapper";
 
 export default function OurStory() {
     return (
-        <section className="bg-gradient-to-br from-brown via-cinnamon-900 to-black py-20 relative w-full min-h-screen">
+        <section className="bg-gradient-to-br from-brown via-cinnamon-900 to-black py-20 relative w-full h-auto min-h-max">
             <div className="container mx-auto px-0 sm:px-2">
-                <div className="grid grid-cols-1 xl:grid-cols-3 w-full min-h-screen">
+                <div className="grid grid-cols-1 xl:grid-cols-3 w-full xl:min-h-screen">
                     <div className="xl:col-span-2 h-full flex flex-col justify-center">
                         <MotionWrapper variant="fadeLeft">
                             <div className="flex flex-row items-center w-full xl:ml-20 ml-0 justify-center xl:justify-start">

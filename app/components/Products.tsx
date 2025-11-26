@@ -12,15 +12,15 @@ export default function Products() {
                     </div>
                 </MotionWrapper>
 
-                <div className='grid grid-cols-1 xl:grid-cols-2 place-items-center gap-10 xl:gap-0 px-4 w-full lg:w-full xl:w-4/5 mx-auto'>
+                <div className='grid grid-cols-1 xl:grid-cols-2 place-items-center gap-10 xl:gap-4 px-4 w-full lg:w-full xl:w-4/5 mx-auto'>
                     <MotionWrapper variant='fadeLeft'>
-                        <div className='bg-light w-full max-w-[500px] h-auto lg:h-[650px] rounded-3xl flex flex-col justify-between items-center p-6 transition-all duration-500 hover:shadow-2xl hover:scale-105'>
+                        <div className='bg-light w-full max-w-[500px] h-auto lg:h-[660px] rounded-3xl flex flex-col justify-between items-center p-6 transition-all duration-500 hover:shadow-2xl hover:scale-105'>
                             <div className='w-full sm:w-3/4 relative h-64 md:h-72 overflow-hidden rounded-xl group'>
                                 <Image 
                                     src='/Images/product-1.png'
                                     alt='Ceylon Cinnamon Infused "Sugar"'
                                     fill
-                                    className='object-cover rounded-xl cursor-pointer transition-transform duration-700 group-hover:scale-110 group-hover:rotate-2'
+                                    className='object-cover rounded-xl cursor-pointer pb-2 xl:pb-0 transition-transform duration-700 group-hover:scale-110 group-hover:rotate-2'
                                 />
                             </div>
 
@@ -38,13 +38,13 @@ export default function Products() {
                     </MotionWrapper>
 
                     <MotionWrapper variant='fadeRight'>
-                        <div className='bg-light w-full max-w-[500px] h-auto lg:h-[650px] rounded-3xl flex flex-col justify-between items-center p-6 transition-all duration-500 hover:shadow-2xl hover:scale-105'>
+                        <div className='bg-light w-full max-w-[500px] h-auto lg:h-[660px] rounded-3xl flex flex-col justify-between items-center p-6 transition-all duration-500 hover:shadow-2xl hover:scale-105'>
                             <div className='w-full sm:w-3/4 relative h-64 md:h-72 overflow-hidden rounded-xl group'>
                                 <Image 
                                     src='/Images/product-4.png'
                                     alt='Ceylon Cinnamon Infused "Coffee"'
                                     fill
-                                    className='object-cover rounded-xl cursor-pointer transition-transform duration-700 group-hover:scale-110 group-hover:rotate-2'
+                                    className='object-cover rounded-xl cursor-pointer pb-2 transition-transform duration-700 group-hover:scale-110 group-hover:rotate-2'
                                 />
                             </div>
                             <div className='w-full sm:w-3/4 flex flex-col'>
