@@ -92,7 +92,7 @@ const Footer = () => {
                                 <div>
                                     <p className="text-parchment/70 text-xs uppercase tracking-wider mb-1">Address</p>
                                     <p className="text-cream font-medium">
-                                        645/8, Industrial Estate,<br />
+                                        654/8, Industrial Estate,<br />
                                         <span className="text-parchment/80">Ratmalana, Sri Lanka</span>
                                     </p>
                                 </div>
